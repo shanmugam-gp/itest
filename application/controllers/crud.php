@@ -7,4 +7,10 @@ class Crud extends CI_Controller
 	{
 	  $this->load->view('index');
 	}
+	
+	
+	public function helloworld()
+	{
+	   echo "hello world";
+	}
 }
