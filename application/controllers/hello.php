@@ -18,4 +18,9 @@ class Crud extends CI_Controller
 	{
 	   echo "hello world";
 	}
+	
+	public function test()
+	{
+		echo "test function is included";
+	}
 }
